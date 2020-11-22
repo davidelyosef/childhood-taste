@@ -1,0 +1,184 @@
+.recipes_count {
+  font-family: Open Sans Hebrew;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #82858a;
+  padding: 12px;
+}
+.persons_grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.persons_grid .person_block {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(33.3% - 0px);
+  text-align: center;
+  margin: 0px;
+  padding: 12px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .persons_grid .person_block {
+    flex-basis: 100%;
+  }
+}
+.persons_grid .person_block .photo {
+  width: 60%;
+  margin: 10px auto;
+  border-radius: 3px;
+}
+.persons_grid .person_block .category, .persons_grid .person_block .for_child {
+  background: #eaf9fe;
+  box-shadow: 2px 2px 4px rgba(74, 74, 74, 0.25);
+  border-radius: 20px;
+  font-family: Open Sans Hebrew;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #2f3032;
+  width: fit-content;
+  margin: 0 auto -25px;
+  padding: 5px 15px;
+  z-index: 10;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .persons_grid .person_block .category, .persons_grid .person_block .for_child {
+    padding: 5px 10px;
+  }
+}
+.persons_grid .person_block .for_child {
+  display: flex;
+  background: #53b5d3;
+  color: #fff;
+  position: absolute;
+  left: 20px;
+}
+@media screen and (max-width: 768px) {
+  .persons_grid .person_block .for_child {
+    left: 0px;
+  }
+}
+.persons_grid .person_block .for_child img {
+  padding: 0 5px;
+}
+.persons_grid .person_block .share {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  background: #ea7e13;
+  box-shadow: 2px 2px 4px rgba(74, 74, 74, 0.25);
+  border-radius: 20px;
+  width: fit-content;
+  margin: auto;
+  padding: 5px 15px;
+  font-family: Open Sans Hebrew;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  color: #fff;
+}
+.persons_grid .person_block .share img {
+  padding: 0 5px;
+}
+.persons_grid .person_block .name {
+  font-family: Open Sans Hebrew;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #2f3032;
+  margin: 15px;
+}
+.persons_grid .person_block .description {
+  font-family: Open Sans Hebrew;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #272727;
+  padding: 0 20px;
+}
+.persons_grid .person_block .recipes {
+  font-family: Open Sans Hebrew;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #82858a;
+  margin: 15px;
+}
+.persons_grid .person_block.recipe .photo {
+  width: 100%;
+}
+.persons_grid .person_block:hover .category {
+  background: #53b5d3;
+  color: #fff;
+}
+.persons_grid .person_block:hover .photo {
+  filter: brightness(55%);
+}
+.persons_grid .person_block:hover .name {
+  color: #53b5d3;
+}
+.persons_grid .person_block:hover .share {
+  display: flex;
+}
+.persons_next {
+  display: block;
+  border: 1px solid #53b5d3;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: fit-content;
+  margin: auto;
+  padding: 5px 50px;
+  font-family: Open Sans Hebrew;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #53b5d3;
+}
+.persons_next i {
+  padding-right: 10px;
+}
+.persons_next:hover {
+  background: #53b5d3;
+  color: #fff;
+}
+.swicher {
+  display: flex;
+  width: fit-content;
+  border: 1px solid #2f3032;
+  background: #fff;
+  border-radius: 5px;
+}
+.swicher > div {
+  padding: 0 20px;
+  width: fit-content;
+  height: 40px;
+  font-family: Open Sans Hebrew;
+  font-size: 16px;
+  line-height: 22px;
+  color: #53b5d3;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.swicher > div:first-child {
+  border-left: 1px solid #2f3032;
+}
+.swicher > div.active {
+  background: #53b5d3;
+  color: #fff;
+}
+.donate_form .elementor-field-group > label {
+  position: absolute;
+  right: -95px;
+  color: #2f3032;
+  font-family: Open Sans Hebrew;
+  font-size: 16px;
+  line-height: 22px;
+}

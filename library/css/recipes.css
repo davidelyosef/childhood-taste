@@ -1,0 +1,13 @@
+div.foodRecipes .elementor-shortcode > div.recipes_count {
+    position: relative;
+    top: -2vh;
+    padding: 8px;
+}
+
+@media (max-width: 767px) {
+	.elementor-312 .elementor-element.recipesTitle h2.elementor-heading-title {
+    font-size: 21px;
+    text-align: center;
+    color: #53b5d3;
+	}
+}
