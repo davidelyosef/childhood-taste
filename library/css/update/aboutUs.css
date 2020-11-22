@@ -1,0 +1,52 @@
+/* .page-id-354 */
+.page-id-354 #breadcrumbs span::after {
+  content: "מהו המיזם?";
+}
+.page-id-354 div.elementor-11 .elementor-element.elementor-element-6520f95 {
+  display: none;
+}
+@media (min-width: 768px) {
+  .page-id-354 .elementor-11 .elementor-element.elementor-element-2829056 {
+    width: auto;
+    padding-left: 33px;
+  }
+  .page-id-354
+    .elementor-354
+    .elementor-element.elementor-element-133835d1
+    > .elementor-element-populated {
+    padding: 20px;
+    margin: 36px 24px 36px 24px;
+  }
+  .page-id-354
+    .elementor-354
+    .elementor-element.elementor-element-1888df8b:not(.elementor-motion-effects-element-type-background),
+  .elementor-354
+    .elementor-element.elementor-element-1888df8b
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    margin: 36px 24px 36px 24px;
+  }
+  .page-id-354
+    .elementor-354
+    .elementor-element.elementor-element-28ef196:not(.elementor-motion-effects-element-type-background),
+  .elementor-354
+    .elementor-element.elementor-element-28ef196
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    margin: 36px 24px 36px 24px;
+  }
+}
+@media (max-width: 767px) {
+  .page-id-354 .elementor .elementor-hidden-phone {
+    display: block;
+  }
+  .page-id-354 .elementor-11 .elementor-element.elementor-element-2829056 {
+    display: none;
+  }
+  .page-id-354 .elementor-11 .elementor-element.elementor-element-a95dbd8 {
+    display: none;
+  }
+  .page-id-354 .elementor-row .elementor-hidden-phone {
+    display: none;
+  }
+}
