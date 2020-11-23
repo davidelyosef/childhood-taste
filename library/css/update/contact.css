@@ -1,11 +1,26 @@
-.page-id-166 .elementor-166 .elementor-element.elementor-element-79746ec > .elementor-element-populated {
-    padding: 50px;
+/* .page-id-166 */
+.page-id-166 #breadcrumbs span::after {
+  content: "צרו קשר";
 }
 
-.page-id-166 .elementor-166 .elementor-element.elementor-element-45a5623 .elementor-text-editor {
-    font-size: 16px;
+.page-id-166
+  .elementor-166
+  .elementor-element.elementor-element-79746ec
+  > .elementor-element-populated {
+  padding: 50px;
 }
 
-.page-id-166 .elementor-166 .elementor-element.elementor-element-45a5623 .elementor-text-editor > p {
-	text-align: center !important;
+.page-id-166
+  .elementor-166
+  .elementor-element.elementor-element-45a5623
+  .elementor-text-editor {
+  font-size: 16px;
+}
+
+.page-id-166
+  .elementor-166
+  .elementor-element.elementor-element-45a5623
+  .elementor-text-editor
+  > p {
+  text-align: center !important;
 }

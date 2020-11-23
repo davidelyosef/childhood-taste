@@ -1,3 +1,8 @@
+/* .elementor-page-207 */
+.elementor-page-207 #breadcrumbs span::after {
+  content: "האנשים שמאחורי המתכונים";
+}
+
 .elementor-page-207
   div.elementor-207
   .elementor-element
@@ -79,6 +84,10 @@
     text-align: center;
   }
 
+  .elementor-page-207 .elementor-207 .elementor-element.elementor-widget .elementor-text-editor {
+    text-align: center;
+  }
+
   .elementor-page-207
     div.elementor-207
     div.elementor-element.elementor-column.elementor-inner-column.elementor-col-25:first-of-type {
@@ -111,12 +120,11 @@
   }
 
   .elementor-page-207 .elementor-shortcode > div.recipes_count {
-    top: -190px;
+    top: -180px;
     text-align: center;
   }
 
   .elementor-page-207 div.recipes2 .elementor-shortcode > div.recipes_count {
-    /*     top: -33vh !important; */
     top: -178px !important;
     text-align: center;
   }

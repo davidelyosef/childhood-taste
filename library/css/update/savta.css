@@ -1,3 +1,8 @@
+/* .person-template-default */
+/* .person-template-default #breadcrumbs span {
+  content: "האנשים שמאחורי המתכונים";
+} */
+
 .elementor-shortcode > div.recipes_count {
   position: relative;
   top: -3vh;

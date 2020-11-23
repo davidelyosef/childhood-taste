@@ -10,6 +10,8 @@ wp_enqueue_style('recipes', get_template_directory_uri() . '/library/css/update/
 wp_enqueue_style('aboutUs', get_template_directory_uri() . '/library/css/update/aboutUs.css', false, null, 'all');
 wp_enqueue_style('savta', get_template_directory_uri() . '/library/css/update/savta.css', false, null, 'all');
 wp_enqueue_style('volunteers', get_template_directory_uri() . '/library/css/update/volunteers.css', false, null, 'all');
+wp_enqueue_style('collaborations', get_template_directory_uri() . '/library/css/update/collaborations.css', false, null, 'all');
+wp_enqueue_style('wroteAboutUs', get_template_directory_uri() . '/library/css/update/wroteAboutUs.css', false, null, 'all');
 
 if (function_exists('register_nav_menus')) {
     register_nav_menus(

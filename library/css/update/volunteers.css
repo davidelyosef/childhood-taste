@@ -1,15 +1,19 @@
 /* .elementor-page-936 */
+.elementor-page-936 #breadcrumbs span::after {
+  content: "המתנדבים שלנו";
+}
+
 .elementor-page-936 .elementor-image-gallery .gallery-item img {
   width: 130px;
 }
 
 @media (min-width: 1129px) {
-    .elementor-page-936 .elementor-column.elementor-col-33:nth-child(1) {
-        width: 52%;
-    }
-    .elementor-page-936 .elementor-column.elementor-col-33:nth-child(3) {
-        width: 35%;
-    }
+  .elementor-page-936 .elementor-column.elementor-col-33:nth-child(1) {
+    width: 52%;
+  }
+  .elementor-page-936 .elementor-column.elementor-col-33:nth-child(3) {
+    width: 35%;
+  }
 }
 @media (min-width: 1028px) and (max-width: 1128px) {
   .elementor-page-936 .elementor-column.elementor-col-33,

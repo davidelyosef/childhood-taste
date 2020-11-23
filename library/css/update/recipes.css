@@ -1,13 +1,47 @@
+/* .elementor-page-312 */
+.elementor-page-312 #breadcrumbs span::after {
+  content: "מה בתפריט היום?";
+}
+
 div.foodRecipes .elementor-shortcode > div.recipes_count {
-    position: relative;
-    top: -2vh;
-    padding: 8px;
+  position: relative;
+  top: -2vh;
+  padding: 8px;
 }
 
 @media (max-width: 767px) {
-	.elementor-312 .elementor-element.recipesTitle h2.elementor-heading-title {
+  .elementor-page-312
+    .elementor-312
+    .elementor-element.recipesTitle
+    h2.elementor-heading-title {
     font-size: 21px;
     text-align: center;
     color: #53b5d3;
-	}
+  }
+
+  .elementor-page-312 .elementor-shortcode > div.recipes_count {
+    text-align: center;
+  }
+
+  .elementor-page-312
+    .elementor-312
+    .elementor-element.elementor-widget-heading {
+    text-align: center;
+  }
+
+  .elementor-page-312
+    .elementor-312
+    .elementor-element.elementor-widget-heading
+    .elementor-heading-title {
+    font-size: 21px;
+  }
+  /* 
+    .elementor-widget-heading .elementor-heading-title {
+        color: #53B5D3;
+        font-family: "Rubik", Sans-serif;
+        font-weight: 500;
+        font-size: 21px;
+        text-align: center;
+    }
+    */
 }
