@@ -2,13 +2,14 @@
 wp_enqueue_style('mainstyle', get_template_directory_uri() . '/style.css', false, null, 'all');
 wp_enqueue_style('custom', get_template_directory_uri() . '/library/css/shortcodes.css', false, null, 'all');
 
-// edit by David-el Yosef and Daphne Ly
+// edit by David-el Yosef
 wp_enqueue_style('header', get_template_directory_uri() . '/library/css/update/header.css', false, null, 'all');
 wp_enqueue_style('persons', get_template_directory_uri() . '/library/css/update/persons.css', false, null, 'all');
 wp_enqueue_style('contact', get_template_directory_uri() . '/library/css/update/contact.css', false, null, 'all');
 wp_enqueue_style('recipes', get_template_directory_uri() . '/library/css/update/recipes.css', false, null, 'all');
 wp_enqueue_style('aboutUs', get_template_directory_uri() . '/library/css/update/aboutUs.css', false, null, 'all');
 wp_enqueue_style('savta', get_template_directory_uri() . '/library/css/update/savta.css', false, null, 'all');
+wp_enqueue_style('volunteers', get_template_directory_uri() . '/library/css/update/volunteers.css', false, null, 'all');
 
 if (function_exists('register_nav_menus')) {
     register_nav_menus(
